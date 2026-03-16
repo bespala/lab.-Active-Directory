@@ -84,4 +84,100 @@
 
 Встановлюємо наші служби
 <img width="1723" height="1079" alt="Screenshot 2026-03-16 221821" src="https://github.com/user-attachments/assets/f74dac34-219d-4432-b1ac-b8e1d806a5c2" />
+<img width="1725" height="1079" alt="Screenshot 2026-03-16 221844" src="https://github.com/user-attachments/assets/ea044bbc-742f-4c12-b5bc-3bb516b7f221" />
 
+Після встановлення відповідних служб нам тркба назначити цей сервер як Контролер Домену, як показано на слайдах
+
+<img width="1729" height="1079" alt="Screenshot 2026-03-16 221935" src="https://github.com/user-attachments/assets/900d4e51-b74e-41b8-8286-946aa1e24d9c" />
+
+Визначаємо ім'я нашого домену, в прикладі у нас назва Lab.domain
+<img width="1726" height="1079" alt="Screenshot 2026-03-16 222108" src="https://github.com/user-attachments/assets/36940eb5-cc41-40dd-b50a-322dc859a639" />
+
+
+встановлюємо пароль для відновленя домену (його дуже важливо запам'ятати, без ноього відновлення після збою буде неможливе)
+
+<img width="1723" height="1079" alt="Screenshot 2026-03-16 222143" src="https://github.com/user-attachments/assets/4151cb71-cd19-4ad8-8d30-ea3061be7e51" />
+
+Далі нічого не змінюючи завершуємо налаштування 
+
+<img width="1723" height="1079" alt="Screenshot 2026-03-16 222218" src="https://github.com/user-attachments/assets/6694ecb7-ce81-4304-b0e1-15946612f145" />
+
+На даному слайді нам показано, яку приставку будуть робити користувачі, для того щоб зайти на домен
+<img width="1726" height="1079" alt="Screenshot 2026-03-16 222239" src="https://github.com/user-attachments/assets/523d84ca-7539-4aea-8605-97687052589e" />
+
+<img width="1723" height="1079" alt="Screenshot 2026-03-16 222255" src="https://github.com/user-attachments/assets/77d9b87d-f725-402f-9f1a-17ded2192450" />
+
+<img width="1724" height="1079" alt="Screenshot 2026-03-16 222306" src="https://github.com/user-attachments/assets/df843ee5-bf9b-4f6e-bcf0-fd0f4bdff961" />
+Встановюємо зміни. Після завершення, сервер автоматично перезавантижиться, і наступний вхід вже буде здійснюватись в створеному нами домені
+<img width="1723" height="1079" alt="Screenshot 2026-03-16 222334" src="https://github.com/user-attachments/assets/51160676-47ac-4552-b214-bb121baeb989" />
+<img width="1915" height="1079" alt="Screenshot 2026-03-16 222813" src="https://github.com/user-attachments/assets/dd224f33-44a1-4e49-8549-a41bafd3257e" />
+
+5. Створення користувача в домені
+
+Для створення майбутнього користувача в домені,  треба зайти в додаток Active Directory Users and Computers, вибрати наш домер, зайти в папку Користувачі та створити ного користувача як показано на слайді
+<img width="1724" height="1079" alt="Screenshot 2026-03-16 232556" src="https://github.com/user-attachments/assets/55cd47c3-40e6-45ad-b21b-050a5366dbcb" />
+<img width="1724" height="1075" alt="Screenshot 2026-03-16 232702" src="https://github.com/user-attachments/assets/b27eca8e-44a2-48d6-8751-9696bd8cdd36" />
+<img width="1722" height="1076" alt="Screenshot 2026-03-16 232723" src="https://github.com/user-attachments/assets/3da52cd8-8bb7-44d8-a2dd-dfc1ceb872fc" />
+<img width="1723" height="1079" alt="Screenshot 2026-03-16 232730" src="https://github.com/user-attachments/assets/d3022608-ef74-48eb-8c5a-0d5d4e30771f" />
+<img width="1720" height="1079" alt="Screenshot 2026-03-16 232738" src="https://github.com/user-attachments/assets/bead1e4a-81dc-401c-9f23-fd9a0d449c05" />
+
+
+6. Встановлення віртуальної машини клієнта
+В якості клієнта ми використовуємо віртуальну машину на базі Windows11, тому налаштування самої віртуальної машини відрізняється тільки його назвою, ID та вихідним файлом
+
+<img width="1916" height="735" alt="Screenshot 2026-03-16 223000" src="https://github.com/user-attachments/assets/384fbdf5-42b7-44ca-8a01-91cb9483bb6f" />
+
+Далі іде процес встановлення самої операційної системи, він не відрізняється від встановлення її на фізичний компьютер
+
+<img width="1720" height="1077" alt="Screenshot 2026-03-16 225356" src="https://github.com/user-attachments/assets/9fb18b9c-78cc-4fe7-a701-65cc90e331fb" />
+<img width="1720" height="1079" alt="Screenshot 2026-03-16 225410" src="https://github.com/user-attachments/assets/79c26327-e4af-4ab0-a184-6bbac06b8b06" />
+<img width="1721" height="1078" alt="Screenshot 2026-03-16 225425" src="https://github.com/user-attachments/assets/5aeb3dd9-8cd0-42ba-a7eb-e7d6331cee21" />
+
+Так само як при встановленні серверу, нам треба завантижити драйвери на систему як показано на слайдах
+<img width="1724" height="1079" alt="Screenshot 2026-03-16 225450" src="https://github.com/user-attachments/assets/b642d5d0-956d-48a9-9a99-7549c2f70a81" />
+
+<img width="1719" height="1073" alt="Screenshot 2026-03-16 225507" src="https://github.com/user-attachments/assets/6a06f1c1-65de-43d2-aa4c-f038cd4b500f" />
+<img width="1715" height="1079" alt="Screenshot 2026-03-16 225523" src="https://github.com/user-attachments/assets/cdd20c41-9a02-4020-9c0e-9fba36f73e85" />
+<img width="1719" height="1079" alt="Screenshot 2026-03-16 225532" src="https://github.com/user-attachments/assets/d9ca39a7-fc0b-4ff0-a903-d7e52bf12620" />
+
+Встановлюємо систему
+
+Після перезавантаження системи, заходимо під локально створенним користувачем
+<img width="1725" height="1079" alt="Screenshot 2026-03-16 232943" src="https://github.com/user-attachments/assets/7c0ca017-8093-4387-b36d-0401c2b43458" />
+
+7. Додавання віртуальної машини в домен
+
+Для того щоб додати віртуальну машину в домен мають буди виконані наступні умови
+- Комп'ютер має бути в одній мережі з сервером домену, і сервер домену має бути налаштований як DNS для машини клієнта
+- Має відповідати час машини клієнта на машини серверу
+
+налаштування мережі показані на наступних слайдах
+
+<img width="1723" height="1079" alt="Screenshot 2026-03-16 233319" src="https://github.com/user-attachments/assets/acec0441-8d1b-4c97-ba2c-645ae319de6e" />
+
+<img width="1720" height="1078" alt="Screenshot 2026-03-16 233604" src="https://github.com/user-attachments/assets/4e12f610-d360-406a-9881-a3e45f99843c" />
+
+Через командний рядок перевіряємо доступність серверу домену
+<img width="1723" height="1079" alt="Screenshot 2026-03-16 233638" src="https://github.com/user-attachments/assets/73678fb9-9c95-4c1e-8e03-aae7b1e89eb7" />
+
+Все успішно
+
+Далі йде фінальний етап -додавання машини клієнта в домен, як показано на слайдах
+
+<img width="1723" height="1079" alt="Screenshot 2026-03-16 234114" src="https://github.com/user-attachments/assets/c3b2b406-ff06-439d-ad20-7aa6e8809271" />
+
+<img width="1725" height="1079" alt="Screenshot 2026-03-16 234121" src="https://github.com/user-attachments/assets/da71952d-50da-4a50-b315-7c147340bdec" />
+
+<img width="1718" height="1079" alt="Screenshot 2026-03-16 234136" src="https://github.com/user-attachments/assets/8b9771ca-657f-4d19-a00d-cd3f94e12491" />
+
+В діалоговому вікні вписуємо назву нашого домену, та вводимо обліковий запис адміністратора, для того щоб приєднати машину клієнта
+
+<img width="1721" height="1079" alt="Screenshot 2026-03-16 234428" src="https://github.com/user-attachments/assets/f1e8c096-64ab-4654-b5a9-738aef3d3b8d" />
+<img width="1724" height="1079" alt="Screenshot 2026-03-16 234800" src="https://github.com/user-attachments/assets/3632962b-02bb-48ec-98e2-2c8be9a89a54" />
+
+Після цього машина клієнта перезавантажується, і наступний вхід вже буде пропонувати в домені
+Використовуємо створений раніше  акаунт користувача
+<img width="1719" height="1078" alt="Screenshot 2026-03-16 234836" src="https://github.com/user-attachments/assets/dd75cbc7-fc78-4fc7-abbf-f848e647fb1e" />
+На даному слайді ми бачимо що віртуальна машина клієнта успішно підключена в домен
+
+<img width="1720" height="1079" alt="Screenshot 2026-03-16 234937" src="https://github.com/user-attachments/assets/de8b5e60-7b02-48c5-83fd-0b2daa320088" />
